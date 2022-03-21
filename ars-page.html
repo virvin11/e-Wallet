@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+    <link rel="stylesheet" href="css/ars-style.css">
+    <title>eWalle</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="profile">
+                <img src="img/guest-user-250x250.jpg" alt="">
+                <div class="profile-text">
+                    <button id="myBtn">Guest</button>
+                </div>
+            </div>
+            <div class="exit-to-main-page">
+                <a href="#">
+                    <img id="button-clik-size" src="img/Burger.png" alt="">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="links">
+                <ul>
+                    <div class="home">
+                        <li>
+                            <a class="home-link" href="main-page.html">Home</a>
+                        </li>
+                    </div>
+                    <div class="accounts">
+                        <li>
+                            <a href="">Accounts</a>
+                        </li>
+                    </div>
+                    <div class="transactions">
+                        <li>
+                            <a href="transaction.html">Transactions</a>
+                        </li>
+                    </div>
+                    <div class="stata">
+                        <li>
+                            <a href="">Stats</a>
+                        </li>
+                    </div>
+                    <div class="settings">
+                        <li>
+                            <a href="">Settings</a>
+                        </li>
+                    </div>
+                    <div class="help">
+                        <li>
+                            <a href="">Help</a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="logout-button">
+                <div class="logout-img">
+                    <img src="img/Vector.png" alt="">
+                </div>
+                <div class="logout-button-text">
+                    <a href="index.html">Logout</a>
+                </div>
+            </div>
+            <div class="version">
+                <p>Version 2. 0. 1</p>
+            </div>
+        </div>
+    </main>
+    <div id="myModal" class="guestmodal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Account Data</h2>
+          </div>
+          <div class="modal-body">
+            <h2 >Name: <span id="name-mod"></span></h2>
+            <p id="name"></p>
+            <h2>Surname: <span id="surname-mod"></span></h2>
+            <p></p>
+            <h2>Phone Number: <span id="phone-mod"></span></h2>
+            <p></p>
+            <h2>Email: <span id="mail-mod"></span></h2>
+            <p></p>
+          </div>
+          
+        </div>
+    </div>
+    <div class="modal none"> 
+        <div class="container-modal"> 
+            <div class="lists">
+                <ul>
+                    <h2>Our contacts</h2>
+                    <li>E-mail: <a href="https://www.google.com/intl/ru/gmail/about/" class="email">vinohorovarseniy@gmail.com</a></li>
+                    <li>Telephone: +375-29-968-48-54</li>
+                    <li>
+            <div class="social-media-list">
+                            <a href="https://vk.com/" class="vk">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                            <a href="https://www.instagram.com/?hl=ru" class="instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1557999815&extra_1=s%7Cc%7C294723539698%7Ce%7Cfacebook%7C&placement=&creative=294723539698&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1557999815%26adgroupid%3D58938663837%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1001493%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQiA15yNBhDTARIsAGnwe0U2rWYFL8OOwaCCX_lwVU_ulWuqgAgLx4iQKpatAtg7bY3iRSEwd1gaAlz0EALw_wcB" class="facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <ol>
+                    <h2>Our team</h2>
+                    <li>Arseniy Vinogorov</li>
+                    <li>Sergey Samokhin</li>
+                </ol>
+            </div>
+           
+            <div class="header_menu active"><span></span></div> 
+        </div> 
+        <div class="modal-text"></div>
+    </div>
+    <div class="modal-prem none ">
+        <div class="container-preme ">
+            <div class="header_menu prem-close active"><span></span></div>
+            <div class="block-pos">
+                <div class="sale-text">
+                    <p id="sale">АКЦИЯ!</p>
+                    <p id="buy-acc">Купите премиум аккаунт по сниженой цене и получите доступ к новым возможностям приложения! </p>
+                </div>
+                <div class="tim-block">
+                    <p id="to-end">ДО КОНЦА АКЦИИ</p>
+                    <div class="timer">
+                        <div id="days">00</div>
+                        <div id="hours">00</div>
+                        <div id="minutes">00</div>
+                        <div id="seconds">00</div>
+                    </div>
+            </div>
+        </div>
+            
+        </div>
+    </div>
+    <script src="js/ars.js"></script>
+</body>
+</html>

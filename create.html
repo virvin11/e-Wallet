@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Ubuntu:wght@500;700&zdisplay=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/create.css">
+    <title>Document</title>
+</head>
+
+<body style="background: none;  background:linear-gradient(30deg,#EECFBA,#C5DDE8);
+background-repeat: no-repeat;
+height: 100%;">
+    <div class="container">
+        <div class="container_form">
+            <a id="link-back" href="index.html">back</a>
+            <h1>Create new account</h1>
+            <div class="personal-date">
+                <form action="#">
+                    <label for="name"> Your name</label>
+                    <input type="text" placeholder="Name" id="name">
+                    <label for="surname">Your surname</label>
+                    <input type="text" placeholder="Surname" id="surname">
+                    <label for="mail-adrss">Your e-mail address</label>
+                    <input type="email" id="mail-adrss" placeholder="E-mail">
+                    <label for="phone-num">Your phone number</label>
+                    <input type="tel" placeholder="+375" id="phone-num" value="+375">
+                    <label for="password-acc">Enter password</label>
+                    <input type="password" id="password-acc" placeholder="password">
+                </form>
+            </div>
+            <div class="card-date">
+                <div class="form-card">
+                    <form action="#">
+                        <label for="num-card">Card number</label>
+                        <input type="number" id="num-card">
+                        <label for="year-card">Card expiry date</label>
+
+                        <input type="text" id="year-card" placeholder=" **/** ">
+                        <label for="cvc">CVV/CVC code <span id="span-cvc">(pin code on the back of the
+                                card)</span></label>
+                        <input type="password" id="cvc" placeholder="CVC">
+                    </form>
+                </div>
+                <div class="img-card">
+                    <div id="card1"><img src="images/visa.png" alt=""></div>
+                    <div id="card2"><img src="images/master.png" alt=""></div>
+                    <div id="card3"><img src="images/maestro.png" alt=""></div>
+                </div>
+            </div>
+           
+            <button id="login-btn" >Login</button>
+        
+        </div>
+        <div class="modal_img none">
+            <div class="container_img ">
+                <p id="chose_pict">Choose picture for your account</p>
+                <div class="block-avatar">
+                    <img class="avatar" src="img/blond-man.svg" alt="">
+                    <img class="avatar" src="img/curcle-men.svg" alt="">
+                    <img class="avatar" src="img/woman.svg" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="js/create.js"></script>
+</body>
+</html>

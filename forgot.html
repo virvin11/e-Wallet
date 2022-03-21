@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/create.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container-forgot">
+        <form action="#">
+            <label for="forgot-mail" id="lab-forgot">Enter your E-mail</label>
+            <input id="forgot-mail" type="e-mail" placeholder="e-mail ">
+            <button id="btn-send-forg" >Send</button>
+        </form>
+    </div>
+    <div class="modal none">
+        <div class="container_modal_forgot ">
+            <div class="header_menu active"><span></span></div>
+            <p id="info-code">A 6-digit code has been sent to your E-mail</p>
+            <button id="btn-ok" onClick='location.href="e-mail.html"'>OK</button>
+        </div>
+        
+    </div>
+    <script src="js/forgot.js"></script>
+</body>
+</html>
